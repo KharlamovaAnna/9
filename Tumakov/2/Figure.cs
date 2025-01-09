@@ -8,7 +8,6 @@ namespace Tumakov._2
 {
     internal class Figure
     {
-        public string figureType { get; }
         public string color { get; set; }
         public bool visibility { get; set; }
         public int X { get; set; }
@@ -16,7 +15,6 @@ namespace Tumakov._2
 
         public Figure()
         {
-            figureType = "Неизвестная фигура";
             color = "Красный";
             visibility = true;
             X = 0;
