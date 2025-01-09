@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace Tumakov._2
 {
     internal class Point : Figure
-    {
-
+    { 
+        public string figureType { get; } = "точка";
         //Родительский базовый конструктор
         public Point() : base() { }
 
