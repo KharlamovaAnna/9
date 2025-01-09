@@ -16,7 +16,7 @@ namespace Tumakov._2
 
         public override void PrintInfo()
         {
-            Console.WriteLine($"Тип фигуры: figureType, Цвет: {color}, Видимость: {(visibility ? "видимая" : "невидимая")}, Координаты: X={X}, Y={Y}");
+            Console.WriteLine($"Тип фигуры: {figureType}, Цвет: {color}, Видимость: {(visibility ? "видимая" : "невидимая")}, Координаты: X={X}, Y={Y}");
         }
     }
 }
